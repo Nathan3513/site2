@@ -1,0 +1,128 @@
+body {
+/* this is a comment */
+  background-color: rgb(100,50,255);
+  text-align: center;
+  width: 100%;
+  
+  
+ 
+}
+h1, h2 {
+color: black;
+}
+
+h1 {
+  position: relative;
+  font-family: Arial, sans-serif;
+ /* margin-top: 100px; */
+  margin: 100px auto;
+  text-align: center;
+}
+
+p {
+  color: #800000;
+  font-size: 38px;
+  font-style: italic;
+  text-align: center;
+}
+
+p.caption {
+color: Black;
+font-size: 16px;
+font-weight: Bold;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+nav {
+  position: sticky;
+  width: 100%;
+  background: #333;
+  top: 0;
+  z-index: 5;
+  margin-left: -8px;
+  margin-top: -100px;
+}
+
+img#bball {
+width: 100%;
+max-width: 500px;
+} 
+
+.leftimg {
+width: 100%;
+padding-left: 100px;
+}
+
+img#shoes {
+width: 100%;
+max-width: 500px;
+}
+
+.centimg {
+width: 100%;
+}
+
+.product {
+margin: 20px;
+max-width: 200px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 15px;
+  padding: 3px;
+  color: white;
+}
+
+footer {
+ background-color: black;
+ color: white;
+ text-align: center;
+ width: 100.4%;
+ background: #333;
+ margin-left: -8px;
+ margin-bottom: -100px;
+
+ 
+}
+
+div.container {
+flex: 1;
+}
+
+.team {
+margin: 20px;
+max-width: 200px;
+height: 300px;
+}
+
+img#shrek {
+
+width: 100%;
+max-width: 200px
+}
+
